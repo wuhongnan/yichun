@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}.menu{
+			width:180px;
+			height:584px;
+			/* background: pink; */
+			position:fixed;
+			left:76px;
+			top:175px;
+		}
+.pho{
+	width:181px;
+	height:31px;
+	margin-top: 48px;
+	margin-bottom: 52.5px;
+}
+h1{
+	margin-bottom: 52.5px;
+}
+.lianming{
+	margin-bottom:52.5px;
+}
+.dapei{
+	margin-bottom:52.5px;
+}
+.vipc{
+	margin-bottom:52.5px;
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+}
+.info{
+	width:135px;
+	height:15px;
+	background: yellow;
+	position:fixed;
+	left:75px;
+	top:35px;
+}

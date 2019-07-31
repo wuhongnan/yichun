@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* header */
+#box{
+	width:1903px;
+	height:1293px;
+	/* background:yellow; */
+	/* margin:50px auto; */
+	position: relative;
+}
+		button:first-child{
+			position: absolute;
+			left:20px;
+			top:50%;
+			opacity: 0;
+		}
+		button:nth-child(2){
+			position: absolute;
+			right:20px;
+			top:50%;
+			opacity: 0;
+		}
+		li{
+			list-style: none;
+			width:5px;
+			height:5px;
+			background:black;
+			border-radius:50%;
+			float:left;
+			opacity: 0;
+			
+		}
+		ul{
+			width:100px;
+			position: absolute;
+			bottom:20px;
+			left:0;right:0;
+			margin:0 auto;
+			
+		}
+
+/* selete */
+.selete{
+	width:1903px;
+	height:626px;
+	/* background:yellow; */
+	position: absolute;
+	z-index:-10;
+}
+.selete .obox{
+	width:502px ;
+	height:378px;
+	/* background:skyblue; */
+	position:relative;
+	left:702px;
+	top:135px;
+	
+}
+.selete p{
+	font-size:32px;
+	text-align: center;
+	/* margin-bottom: 31px; */
+}
+.selete input{
+	width: 502px;
+	height: 27px;
+	border:0px;
+	outline:none;
+	border-bottom:1px solid black; 
+	text-indent:0px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+
+
